@@ -7,4 +7,67 @@
 header{
   height: 100px;
   background-color: yellow;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* forzatura per il footer */
+.headerimg::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* corpo del sito */
+
+section{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.headerimg{
+  background-color: red;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contain{
+  height: 400px;
+  background-color: green;
+}
+
+.box{
+  height: 350px;
+  background-color: pink;
+  margin-top: 10px;
+}
+
+.titolo{
+height: 30px;
+}
+
+.latosx{
+  float: left;
+  width: 20%;
+}
+
+.central{
+  float: left;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.latodx{
+  float: left;
+  width: 20%;
+}
+
+/* piè di pagina */
+footer{
+  width: 60%;
+  background-color: blue;
+  height: 80px;
+  margin-top: 10px;
 }
