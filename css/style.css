@@ -11,7 +11,7 @@ header{
   margin: 0 auto;
 }
 
-/* forzatura per il footer */
+/* forzatura per il contain */
 .contain::after{
   content: "";
   display: table;
@@ -19,7 +19,6 @@ header{
 }
 
 /* corpo del sito */
-
 section{
   width: 70%;
   margin: 0 auto;
@@ -39,7 +38,6 @@ section{
 }
 
 .contain{
-  /* height: 400px; */
   background-color: green;
   margin-bottom: 10px;
 }
