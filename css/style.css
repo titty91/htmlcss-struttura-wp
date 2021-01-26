@@ -12,7 +12,7 @@ header{
 }
 
 /* forzatura per il footer */
-.headerimg::after{
+.contain::after{
   content: "";
   display: table;
   clear: both;
@@ -32,8 +32,14 @@ section{
   margin-bottom: 20px;
 }
 
+.titolo{
+  background-color: pink;
+  height: 40px;
+  margin: 0 auto;
+}
+
 .contain{
-  height: 400px;
+  /* height: 400px; */
   background-color: green;
   margin-bottom: 10px;
 }
@@ -42,13 +48,10 @@ section{
   height: 350px;
   background-color: pink;
   margin-top: 5px;
+  margin-top: 5px;
 }
 
-.titolo{
-height: 40px;
-}
-
-.latosx{
+.laterale{
   float: left;
   width: 20%;
 }
@@ -60,10 +63,6 @@ height: 40px;
   margin-right: 5%;
 }
 
-.latodx{
-  float: left;
-  width: 20%;
-}
 
 /* piè di pagina */
 footer{
